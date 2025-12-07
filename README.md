@@ -2,6 +2,27 @@
 
 This repository contains Python scripts for analyzing social media comments from various sources (YouTube, Twitch, etc.) using AI-powered sentiment analysis and classification.
 
+## Example Output
+
+### YouTube Insights Dashboard
+See `examples/example_insights_dashboard.html` for a sample YouTube insights dashboard (matching the style of `src/generate_insights_webpage.py`). This demonstrates:
+- Interactive filtering by Theme, Sentiment, and Priority
+- Bar chart showing sentiment distribution by theme
+- Two tabs: "Key Insights" and "Priority Themes"
+- Insight cards with badges (module, sentiment, importance)
+- Supporting comments for each insight
+- Real-time filter updates
+
+![Insights Dashboard Screenshot](examples/example.png)
+
+*Example dashboard showing interactive filters, statistics, and key insights with supporting comments*
+
+The dashboard uses sample data from `examples/example_insights_data.json` to show the expected output format.
+
+## Changelog
+
+See [docs/CHANGELOG.md](docs/CHANGELOG.md) for a list of changes and version history.
+
 ## Project Structure
 
 ```
@@ -186,33 +207,4 @@ Contributions are welcome! Please see [docs/CONTRIBUTING.md](docs/CONTRIBUTING.m
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Example Output
-
-### Card System Analysis Dashboard
-See `examples/example_dashboard.html` for a sample card system analysis dashboard with English text. This demonstrates:
-- Interactive statistics cards
-- Visual charts showing sentiment distribution by playtime segments
-- Detailed main points with supporting comments
-- Organized by playtime segments (Early, Mid, Late, Veteran)
-
-The dashboard uses sample data from `examples/example_data.json` to show the expected output format.
-
-### YouTube Insights Dashboard
-See `examples/example_insights_dashboard.html` for a sample YouTube insights dashboard (matching the style of `src/generate_insights_webpage.py`). This demonstrates:
-- Interactive filtering by Theme, Sentiment, and Priority
-- Bar chart showing sentiment distribution by theme
-- Two tabs: "Key Insights" and "Priority Themes"
-- Insight cards with badges (module, sentiment, importance)
-- Supporting comments for each insight
-- Real-time filter updates
-
-![Insights Dashboard Screenshot](examples/example.png)
-
-*Example dashboard showing interactive filters, statistics, and key insights with supporting comments*
-
-The dashboard uses sample data from `examples/example_insights_data.json` to show the expected output format.
-
-## Changelog
-
-See [docs/CHANGELOG.md](docs/CHANGELOG.md) for a list of changes and version history.
 
